@@ -3,27 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockville - Tempered Glass Showers</title>
     <meta name="description" content="Premium tempered glass showers with hydrophobic coating. Safe, stylish, and easy to clean.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-<body class="font-sans antialiased text-gray-900 bg-white">
+<body class="font-sans antialiased text-gray-900 bg-white scroll-smooth">
     <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <div class="flex-shrink-0">
-                    <h1 class="text-2xl font-semibold">Rockville</h1>
+                    <a href="https://mr222more.github.io/rockville-2025-04-27-65nw0" class="text-2xl font-semibold hover:text-gray-700 transition-colors duration-300">Rockville</a>
                 </div>
                 <div class="hidden md:flex space-x-8">
                     <a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a>
                     <a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a>
                     <a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a>
                     <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Contact</a>
                 </div>
-                <button class="md:hidden text-gray-600 hover:text-gray-900">
-                    <i class="icon ion-md-menu text-2xl"></i>
+                <button class="mobile-menu-button md:hidden text-gray-600 hover:text-gray-900" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
                 </button>
+            </div>
+            <div class="mobile-menu hidden md:hidden absolute top-16 left-0 w-full bg-white border-b border-gray-100">
+                <div class="px-4 py-2 space-y-3">
+                    <a href="#features" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">Features</a>
+                    <a href="#benefits" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">Benefits</a>
+                    <a href="#testimonials" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">Testimonials</a>
+                    <a href="#about" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">About</a>
+                    <a href="#faq" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">FAQ</a>
+                    <a href="#contact" class="block text-gray-600 hover:text-gray-900 transition-colors duration-300 py-2">Contact</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -33,13 +54,13 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="text-center">
                     <h2 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6">
-                        Tempered glass showers - safe & stylish
+                        Transform Your Bathroom with Premium Tempered Glass Showers
                     </h2>
                     <p class="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-                        Experience the perfect blend of safety and elegance with our premium tempered glass shower solutions.
+                        Experience unmatched elegance and safety with our state-of-the-art tempered glass shower solutions. Featuring advanced hydrophobic coating and premium materials for a lifetime of luxury.
                     </p>
-                    <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition transform hover:scale-105 duration-300">
-                        Get Started
+                    <a href="http://www.customeuroglass.com" class="inline-flex items-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 transition transform hover:scale-105 duration-300 hover:shadow-lg">
+                        Start Your Transformation Today
                     </a>
                 </div>
             </div>
@@ -49,12 +70,21 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h3 class="text-3xl font-bold text-center mb-16">Premium Features</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-lg transition duration-300">
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-lg transition duration-300 transform hover:scale-102">
                         <i class="icon ion-md-water text-4xl text-gray-900 mb-4"></i>
-                        <h4 class="text-xl font-semibold mb-4">Hydrophobic Coating</h4>
-                        <p class="text-gray-600">Advanced coating technology that effectively repels water and soap scum.</p>
+                        <h4 class="text-xl font-semibold mb-4">Advanced Hydrophobic Coating</h4>
+                        <p class="text-gray-600">Our proprietary coating technology repels water, soap scum, and mineral deposits, keeping your shower pristine for years with minimal maintenance.</p>
                     </div>
-                    <!-- Additional feature cards would go here -->
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-lg transition duration-300 transform hover:scale-102">
+                        <i class="icon ion-md-shield text-4xl text-gray-900 mb-4"></i>
+                        <h4 class="text-xl font-semibold mb-4">Safety-First Design</h4>
+                        <p class="text-gray-600">Premium tempered glass that's 4x stronger than standard glass, with smooth edges and safety-certified materials for complete peace of mind.</p>
+                    </div>
+                    <div class="p-8 rounded-xl bg-gray-50 hover:shadow-lg transition duration-300 transform hover:scale-102">
+                        <i class="icon ion-md-brush text-4xl text-gray-900 mb-4"></i>
+                        <h4 class="text-xl font-semibold mb-4">Custom Finishing</h4>
+                        <p class="text-gray-600">Choose from a wide range of premium finishes and hardware options to perfectly match your bathroom's aesthetic.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -63,14 +93,104 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h3 class="text-3xl font-bold text-center mb-16">Key Benefits</h3>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                    <div class="flex items-start space-x-4">
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition duration-300">
                         <i class="icon ion-md-checkmark-circle text-2xl text-gray-900"></i>
                         <div>
-                            <h4 class="text-xl font-semibold mb-2">Easy Maintenance</h4>
-                            <p class="text-gray-600">Smooth, non-porous surfaces make cleaning effortless and quick.</p>
+                            <h4 class="text-xl font-semibold mb-2">Effortless Maintenance</h4>
+                            <p class="text-gray-600">Our hydrophobic coating reduces cleaning time by up to 90%. Simply wipe down occasionally - no harsh chemicals needed.</p>
                         </div>
                     </div>
-                    <!-- Additional benefit items would go here -->
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition duration-300">
+                        <i class="icon ion-md-checkmark-circle text-2xl text-gray-900"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Lifetime Durability</h4>
+                            <p class="text-gray-600">Built to last with premium materials and expert craftsmanship, backed by our comprehensive warranty.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition duration-300">
+                        <i class="icon ion-md-checkmark-circle text-2xl text-gray-900"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Enhanced Property Value</h4>
+                            <p class="text-gray-600">Premium glass showers can increase your home's value by up to 20% while providing daily luxury.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-4 hover:transform hover:scale-102 transition duration-300">
+                        <i class="icon ion-md-checkmark-circle text-2xl text-gray-900"></i>
+                        <div>
+                            <h4 class="text-xl font-semibold mb-2">Professional Installation</h4>
+                            <p class="text-gray-600">Expert installation by certified technicians ensures perfect fit and optimal performance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="py-24 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-3xl font-bold text-center mb-16">Customer Success Stories</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The hydrophobic coating is a game-changer. Haven't had to deep clean my shower in months, and it still looks brand new. Installation was quick and professional."</p>
+                        <p class="font-semibold">Sarah Johnson</p>
+                        <p class="text-sm text-gray-500">Homeowner, Maryland</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"Transformed our master bathroom completely. The custom finishing options allowed us to perfectly match our existing décor. Worth every penny for the quality and service."</p>
+                        <p class="font-semibold">Michael Chang</p>
+                        <p class="text-sm text-gray-500">Interior Designer</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"As a property manager, I've installed these in multiple units. Tenants love them, maintenance is minimal, and they've held up perfectly over the years."</p>
+                        <p class="font-semibold">Robert Martinez</p>
+                        <p class="text-sm text-gray-500">Property Manager</p>
+                    </div>
+                    <div class="p-6 bg-gray-50 rounded-xl hover:shadow-lg transition duration-300">
+                        <div class="flex text-yellow-400 mb-4">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="text-gray-600 mb-4">"The safety features give me peace of mind with young children, and the elegant design has made our bathroom feel like a luxury spa."</p>
+                        <p class="font-semibold">Emily Thompson</p>
+                        <p class="text-sm text-gray-500">Family Homeowner</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-24 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <h3 class="text-3xl font-bold text-center mb-16">About Rockville</h3>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <p class="text-gray-600">
+                        Founded in 2010, Rockville emerged from a vision to revolutionize bathroom design through innovative glass solutions. What began as a small family business has grown into the region's leading provider of premium tempered glass showers, serving thousands of satisfied customers across the East Coast.
+                    </p>
+                    <p class="text-gray-600">
+                        Our mission is to combine cutting-edge technology with timeless design, creating shower solutions that enhance both the form and function of modern bathrooms. We're driven by our core values of quality craftsmanship, customer satisfaction, and innovation, ensuring every installation meets our exacting standards for excellence.
+                    </p>
                 </div>
             </div>
         </section>
@@ -80,22 +200,60 @@
                 <h3 class="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h3>
                 <div class="max-w-3xl mx-auto space-y-6">
                     <div class="border-b border-gray-200 pb-6">
-                        <button class="flex justify-between items-center w-full text-left">
+                        <button class="flex justify-between items-center w-full text-left hover:text-gray-700 transition duration-300">
                             <span class="text-lg font-medium">How long does the hydrophobic coating last?</span>
                             <i class="icon ion-md-add text-xl"></i>
                         </button>
+                        <div class="mt-4 text-gray-600">
+                            With proper care, our hydrophobic coating typically lasts 5-7 years before any reapplication is needed. We provide detailed care instructions to maximize longevity.
+                        </div>
                     </div>
-                    <!-- Additional FAQ items would go here -->
+                    <div class="border-b border-gray-200 pb-6">
+                        <button class="flex justify-between items-center w-full text-left hover:text-gray-700 transition duration-300">
+                            <span class="text-lg font-medium">What is the installation process like?</span>
+                            <i class="icon ion-md-add text-xl"></i>
+                        </button>
+                        <div class="mt-4 text-gray-600">
+                            Installation typically takes 1-2 days. Our certified technicians handle everything from removal of existing fixtures to final cleanup, ensuring minimal disruption to your home.
+                        </div>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6">
+                        <button class="flex justify-between items-center w-full text-left hover:text-gray-700 transition duration-300">
+                            <span class="text-lg font-medium">What warranty coverage is included?</span>
+                            <i class="icon ion-md-add text-xl"></i>
+                        </button>
+                        <div class="mt-4 text-gray-600">
+                            We offer a comprehensive 10-year warranty on glass and hardware, plus a 5-year warranty on the hydrophobic coating. This covers any manufacturing defects or installation issues.
+                        </div>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6">
+                        <button class="flex justify-between items-center w-full text-left hover:text-gray-700 transition duration-300">
+                            <span class="text-lg font-medium">Can I customize the design?</span>
+                            <i class="icon ion-md-add text-xl"></i>
+                        </button>
+                        <div class="mt-4 text-gray-600">
+                            Yes! We offer numerous customization options including glass patterns, hardware finishes, and door styles. Our design team will work with you to create the perfect solution for your space.
+                        </div>
+                    </div>
+                    <div class="border-b border-gray-200 pb-6">
+                        <button class="flex justify-between items-center w-full text-left hover:text-gray-700 transition duration-300">
+                            <span class="text-lg font-medium">What maintenance is required?</span>
+                            <i class="icon ion-md-add text-xl"></i>
+                        </button>
+                        <div class="mt-4 text-gray-600">
+                            Minimal maintenance is needed. Simply wipe down with a soft cloth and water weekly. No harsh chemicals required. Annual professional inspection recommended for optimal performance.
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact" class="py-24 bg-gray-900 text-white">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h3 class="text-3xl font-bold mb-8">Ready to transform your bathroom?</h3>
-                <p class="text-xl mb-8">Contact us today for a free consultation</p>
-                <a href="mailto:office@customeuroglass.com" class="inline-flex items-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-gray-900 transition transform hover:scale-105 duration-300">
-                    Contact Us
+        <section id="contact" class="py-24 bg-gray-900 text-white" style="background-image: url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80'); background-size: cover; background-position: center;">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center bg-gray-900/80 py-16 rounded-xl">
+                <h3 class="text-3xl font-bold mb-8">Ready to Transform Your Bathroom?</h3>
+                <p class="text-xl mb-8">Schedule your free consultation today and discover the perfect glass shower solution for your home.</p>
+                <a href="mailto:office@customeuroglass.com" class="inline-flex items-center px-8 py-3 border-2 border-white text-base font-medium rounded-md text-white hover:bg-white hover:text-gray-900 transition transform hover:scale-105 duration-300 hover:shadow-lg">
+                    Get Your Free Consultation
                 </a>
             </div>
         </section>
@@ -117,14 +275,17 @@
                     <ul class="space-y-2">
                         <li><a href="#features" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Features</a></li>
                         <li><a href="#benefits" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">About</a></li>
                         <li><a href="#faq" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">FAQ</a></li>
+                        <li><a href="https://mr222more.github.io/rockville-2025-04-27-65nw0/blog.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Blog</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2">
-                        <li><a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://mr222more.github.io/rockville-2025-04-27-65nw0/privacy.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="https://mr222more.github.io/rockville-2025-04-27-65nw0/terms.html" class="text-gray-600 hover:text-gray-900 transition-colors duration-300">Terms of Service</a></li>
                     </ul>
                 </div>
             </div>
@@ -133,5 +294,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
